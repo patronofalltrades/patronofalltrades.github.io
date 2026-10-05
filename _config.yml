@@ -31,3 +31,6 @@ exclude:
   - .replit
   - .replitignore
   - .gitignore
+  - Change1.md
+  - Change2.md
+  - README.md
