@@ -1,0 +1,19 @@
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/
+
+# Replit and local metadata
+.replit
+.replitignore
+.cache/
+.local/
+attached_assets/
+PLAN.md
+replit.md
+.DS_Store
+Thumbs.db

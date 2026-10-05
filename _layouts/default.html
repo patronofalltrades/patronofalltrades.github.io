@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="site-shell header-inner">
+        <a class="site-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        {% include navigation.html %}
+      </div>
+    </header>
+
+    <main id="main-content" class="site-main site-shell">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

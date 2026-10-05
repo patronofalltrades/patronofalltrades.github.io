@@ -1,1 +1,0 @@
-# patronofalltrades.github.io

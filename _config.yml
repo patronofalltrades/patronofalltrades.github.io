@@ -1,0 +1,33 @@
+title: "Hanif Ramadhan"
+description: "Founder and MBA candidate at IESE Business School. Open to Product Management, Strategy, and GTM engineer roles in tech startups."
+url: "https://patronofalltrades.github.io"
+baseurl: ""
+lang: en
+author:
+  name: "Hanif Ramadhan"
+
+markdown: kramdown
+permalink: pretty
+timezone: UTC
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og-image.jpg
+
+exclude:
+  - .agents
+  - .cache
+  - .conversation
+  - .local
+  - attached_assets
+  - PLAN.md
+  - replit.md
+  - .replit
+  - .replitignore
+  - .gitignore
