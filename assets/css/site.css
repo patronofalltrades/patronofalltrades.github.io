@@ -200,28 +200,36 @@ h1 {
   line-height: 1.6;
 }
 
-.cv-button {
-  display: inline-block;
-  margin-top: 1.25rem;
-  padding: 0.75rem 1.25rem;
-  border: 2px solid #000;
+.cv-button-item {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav .cv-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid #000;
   border-radius: 0;
   background-color: #000;
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 600;
   line-height: 1.4;
   text-align: center;
   text-decoration: none;
+  white-space: nowrap;
 }
 
-.cv-button:hover {
+.site-nav .cv-button:hover {
   border-color: #222;
   background-color: #222;
   color: #fff;
+  text-decoration: none;
 }
 
-.cv-button:focus-visible {
+.site-nav .cv-button:focus-visible {
   border-radius: 0;
   outline: 3px solid #005a9c;
   outline-offset: 4px;
@@ -453,13 +461,6 @@ h1 {
     grid-template-columns: minmax(0, 1fr);
     gap: 0.6rem;
     padding: 1.15rem;
-  }
-}
-
-@media (max-width: 479px) {
-  .cv-button {
-    display: block;
-    width: 100%;
   }
 }
 
