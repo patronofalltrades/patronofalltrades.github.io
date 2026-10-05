@@ -283,6 +283,16 @@ h1 {
   line-height: 1.6;
 }
 
+.reading-type {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
 .meta-separator {
   white-space: pre;
 }
@@ -296,6 +306,16 @@ h1 {
 
 .experience-summary {
   color: var(--color-muted);
+}
+
+.reading-author {
+  margin: -0.3rem 0 0.75rem;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.reading-note {
+  margin-top: 0.75rem;
 }
 
 .achievement-list {
