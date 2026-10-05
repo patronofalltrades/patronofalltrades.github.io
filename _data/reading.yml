@@ -1,0 +1,36 @@
+# Reading collection. Add a new entry to the top of this list to feature a new read.
+- title: "The Aerodynamics Doctrine"
+  author: ""
+  type: "Essay"
+  url: "https://docs.google.com/document/d/1mwXAKEMJllacvKM6OAUpFiNBcxKwBAX-odIKctEUycc/mobilebasic"
+  summary: "A sharp breakdown of why the agency model is a \"hollow engine\" that is being replaced by scalable, software-encoded expertise."
+  note: "An expanded thesis on the structural evolution of the expertise economy, the collapse of the per-seat SaaS model, and the emergence of encoded skills as the atomic unit of value."
+  tags: ["AI", "Business Models"]
+- title: "If you have multiple interests, do not waste the next 2-3 years"
+  author: "Dan Koe"
+  type: "Essay"
+  url: "https://open.substack.com/pub/thedankoe/p/if-you-have-multiple-interests-do"
+  summary: "They want to put you in a box. Don't let them. On the second renaissance and the power of being multi-disciplinary."
+  note: "This essay validated a tension I've felt my whole career. Being multi-disciplinary isn't a weakness. It's the edge."
+  tags: ["Creativity"]
+- title: "Machines of Loving Grace"
+  author: "Dario Amodei"
+  type: "Essay"
+  url: "https://darioamodei.com/machines-of-loving-grace"
+  summary: "A rare optimistic vision for AI, not utopian, but grounded. What it could mean to compress decades of human progress into years."
+  note: "The first essay about AI that made me feel genuinely hopeful rather than anxious. Amodei's clarity of thought is rare."
+  tags: ["AI"]
+- title: "Cities and Ambition"
+  author: "Paul Graham"
+  type: "Essay"
+  url: "https://www.paulgraham.com/cities.html"
+  summary: "Every city whispers a different message about what matters. The essay that made me think harder about where I choose to live and work."
+  note: "This essay made me rethink why I moved to Barcelona. Every city tells you what to care about, and you become that message."
+  tags: ["Cities"]
+- title: "Exhalation"
+  author: "Ted Chiang"
+  type: "Book"
+  url: "https://openlibrary.org/works/OL20649678W"
+  summary: "The best science fiction I've read. Stories that use impossible premises to ask the most human questions imaginable."
+  note: "Every story in this collection rewired my brain. Ted Chiang writes science fiction that reads like philosophy."
+  tags: ["Sci-Fi"]
