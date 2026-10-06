@@ -4,6 +4,11 @@
       <li>
         <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
       </li>
+      {% if item.url == '/contact/' %}
+      <li class="cv-button-item">
+        {% include cv-button.html %}
+      </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </nav>
