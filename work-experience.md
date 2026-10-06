@@ -4,6 +4,7 @@ title: Work Experience
 description: "Scaled a VR edtech startup to $1M+ revenue and 50+ factory clients across SEA."
 permalink: /work-experience/
 ---
+{% comment %} Work Experience page. The jobs come from _data/experience.yml. {% endcomment %}
 
 <ol class="experience-list">
   {% for role in site.data.experience %}

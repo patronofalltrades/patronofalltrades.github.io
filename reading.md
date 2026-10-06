@@ -4,6 +4,7 @@ title: "Reading"
 description: "Essays and books that shaped how I think about AI, business, cities, and careers."
 permalink: /reading/
 ---
+{% comment %} Reading page. The entries come from _data/reading.yml. {% endcomment %}
 
 <ol class="experience-list reading-list">
   {% for item in site.data.reading %}

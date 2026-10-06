@@ -1,4 +1,7 @@
-# Reading collection. Add a new entry to the top of this list to feature a new read.
+# Reading list for the Reading page (/reading/).
+# One entry for each essay or book. The page shows the entries in this order.
+# To add an entry: copy one complete entry, put it at the top, and change the values.
+# Fields: title, author (use "" if none), type (Essay or Book), url, summary, note, tags.
 - title: "The Aerodynamics Doctrine"
   author: ""
   type: "Essay"
