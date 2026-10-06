@@ -1,3 +1,6 @@
+# Jobs for the Work Experience page (/work-experience/).
+# One entry for each job. Put the newest job at the top.
+# start_date and end_date use the format YYYY-MM. start_label and end_label are the text that shows.
 - title: "Founder & Head of Business"
   company: "Asperio"
   legal_entity: "PT. Artifa Sukses Persada"

@@ -1,3 +1,5 @@
+# Links in the top menu. The menu shows them in this order.
+# Each url must match the permalink in the front matter of the page.
 - title: Home
   url: /
 - title: About

@@ -1,13 +1,14 @@
-# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# Files that Git does not save in this repository.
+# More information: https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# Jekyll build output
+# Files that Jekyll makes during a local preview
 _site/
 .jekyll-cache/
 .sass-cache/
 .bundle/
 vendor/
 
-# Replit and local metadata
+# Files for the Replit editor and the computer, not for the site
 .replit
 .replitignore
 .cache/

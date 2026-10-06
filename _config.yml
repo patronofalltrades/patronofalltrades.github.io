@@ -1,26 +1,36 @@
+# Site settings. Jekyll reads this file when it builds the site.
+# After you change this file, the live site updates after the next build.
+
+# Name and description for the browser tab and search engines.
 title: "Hanif Ramadhan"
 description: "Founder and MBA candidate at IESE Business School. Open to Product Management, Strategy, and GTM engineer roles in tech startups."
+# Address of the live site. Keep baseurl empty for a GitHub user site.
 url: "https://patronofalltrades.github.io"
 baseurl: ""
+# Location of the CV file for the "Download CV" button.
 cv_file: /assets/files/Hanif-Ramadhan-CV.pdf
 lang: en
 author:
   name: "Hanif Ramadhan"
 
+# Build settings. "pretty" makes addresses like /about/ instead of /about.html.
 markdown: kramdown
 permalink: pretty
 timezone: UTC
 
+# Plugins: SEO tags in each page, and an automatic sitemap.xml.
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Default image for link previews on social media.
 defaults:
   - scope:
       path: ""
     values:
       image: /assets/og-image.jpg
 
+# Files that stay in the repository but are not published on the site.
 exclude:
   - .agents
   - .cache
